@@ -1,0 +1,1 @@
+cmd_/home/MyKernelModuleDevelopment/hello.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.11.0-18-generic/scripts/module-common.lds --build-id  -o /home/MyKernelModuleDevelopment/hello.ko /home/MyKernelModuleDevelopment/hello.o /home/MyKernelModuleDevelopment/hello.mod.o
